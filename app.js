@@ -36,4 +36,4 @@ function PageTransitions(){
     });
 }
 
-PageTransitions();
+// PageTransitions();
