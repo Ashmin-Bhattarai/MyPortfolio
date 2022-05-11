@@ -268,14 +268,6 @@ section {
   color: var(--color-grey-2);
 }
 
-.header-content .right-header img {
-  width: 10%;
-}
-
-.header-content .right-header .left-img {
-  margin-top: 2rem;
-}
-
 .about-container {
   display: -ms-grid;
   display: grid;
