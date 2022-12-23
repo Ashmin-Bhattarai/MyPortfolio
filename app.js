@@ -3,7 +3,7 @@ const sectBtns = document.querySelectorAll('.controlls');
 const sectBtn = document.querySelectorAll('.control');
 const allSections = document.querySelector('.main-content');
 
- var x = 42
+    var x = 42
 
 function PageTransitions(){
     // console.log('PageTransitions');
