@@ -21,7 +21,7 @@
   --br-sm-2: 14px;
   --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
   --dark-body-unchange: #212121;
-  --background-image: url("./../images/wallpaper.jpg");
+  --background-image: url("./../images/wallpaper-dark.png");
   --dark-text: #000;
   --light-body: #fff;
   --light-hover-bg: #e3e3e3;
@@ -48,7 +48,7 @@
   --color-grey-4: #454e56;
   --color-grey-5: #f8f8f8;
   --color-grey-6: #12181b;
-  --background-image: url("./../images/wallpaper.jpg");
+  --background-image: url("./../images/wallpaper-light.png");
 }
 
 body {

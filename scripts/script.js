@@ -106,8 +106,8 @@ closeB.addEventListener("click", function(e) {
 // && (e.target == html || e.target.classList.contains('main-body') || e.target.classList.contains('activity-bar') || e.target.classList.contains('dock-panel'))
 
 onmousedown = (e) => {
-    console.log("mouse location:", e.x, e.y);
-    console.log(e.target.classList);
+    // console.log("mouse location:", e.x, e.y);
+    // console.log(e.target.classList);
     if(e.button == 0  && (e.target.classList.contains('main-body') || e.target.classList.contains('activity-bar') || e.target.classList.contains('dock-panel') || e.target.classList.contains('container') || e.target.classList.contains('calander-contianer') ) ){
         for (let ele in hidableElements) {
             hidableElements[ele].style.visibility = 'hidden';
