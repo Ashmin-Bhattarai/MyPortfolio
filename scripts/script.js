@@ -30,7 +30,6 @@ winTitle = ['Introduction',
             'About Me',
             'My Skills',
             'My Projects',
-            'My Blogs',
             'Contact Me'];
 
 
