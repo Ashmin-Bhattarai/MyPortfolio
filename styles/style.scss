@@ -24,7 +24,7 @@
     --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
 
     --dark-body-unchange: #212121;
-    --background-image: url("./../images/wallpaper.jpg");
+    --background-image: url("./../images/wallpaper-dark.png");
 
     // calander
     --dark-text: #000;
@@ -59,7 +59,7 @@
     --color-grey-4: #454e56;
     --color-grey-5: #f8f8f8;
     --color-grey-6: #12181b;
-    --background-image: url("./../images/wallpaper.jpg");
+    --background-image: url("./../images/wallpaper-light.png");
 
 }
 
@@ -775,12 +775,12 @@ header {
                         transition: all .4s ease-in-out;
                         width: 60%;
                     }
-                    .html { width: 80%; }
-                    .css { width: 95%; }
-                    .js { width: 75%; }
-                    .react{ width: 60%; }
-                    .node{ width: 87%; }
-                    .python{ width: 70%; }
+                    .python{ width: 90%; }
+                    .cpp{ width: 70%; }
+                    .git { width: 70%; }
+                    .db { width: 60%; }
+                    .ml-dl { width: 75%; }
+                    .web { width: 60%; }
                 }
             }
         }
@@ -841,7 +841,7 @@ header {
             text-transform: uppercase;
             font-size: 1.3rem;
             font-weight: 600;
-            span {
+            div {
                 color: var(--color-grey-2);
                 font-weight: 500;
                 font-size: 1.2rem;
@@ -1078,9 +1078,16 @@ header {
             }
         }
         .submit-btn {
+            // padding: 0;
+            background: none;
+            border: none;
+            color: inherit;
+            font: inherit;
+            width: 100%;
+
             display: flex;
             justify-content: flex-end;
-            cursor: pointer;
+            cursor: pointer;            
         }
     }
 }

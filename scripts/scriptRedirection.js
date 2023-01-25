@@ -3,8 +3,8 @@ let emailF = 'Email';
 let subjectF = 'Subject';
 let messageF = 'Message';
 
-submitButton = document.querySelector(".submit-btn");
-submitButton.addEventListener("click", function () {
+// submitButton = document.querySelector(".submit-btn");
+function runSubmit() {
 
     // get the value of the input field
     nameF = document.querySelector("#name").value;
@@ -30,14 +30,16 @@ submitButton.addEventListener("click", function () {
     url = 'https://api.ashminbhattarai.com.np/mail';
     
     fetch(url, option)
-    .then((response) => response.json())
-    .then((json) => console.log(json));
+    .then((response) => alert("Message sent successfully!"))
+    .catch((json) => alert("Could not send the message. Please send email at visit@ashminbhattarai.com.np."));
     
-    // clear the input field
+    // // clear the input field
     document.querySelector("#name").value = '';
     document.querySelector("#email").value = '';
     document.querySelector("#subject").value = '';
     document.querySelector("#message").value = '';
-    
 
-});
+    // // prevent the form from submitting
+    return false;
+    
+}

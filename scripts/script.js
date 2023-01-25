@@ -26,7 +26,8 @@ dock = document.querySelector('.dock');
 hidableElements = {widgetsPanel, calenderContainer};
 winFile = ['./hyperLinks/aboutMe.html', './hyperLinks/myProjects.html', './hyperLinks/myBlogs.html', './hyperLinks/contactMe.html'];
 
-winTitle = ['About Me',
+winTitle = ['Introduction',
+            'About Me',
             'My Skills',
             'My Projects',
             'My Blogs',
