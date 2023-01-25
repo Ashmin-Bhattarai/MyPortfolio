@@ -28,7 +28,6 @@ winFile = ['./hyperLinks/aboutMe.html', './hyperLinks/myProjects.html', './hyper
 
 winTitle = ['Introduction',
             'About Me',
-            'My Skills',
             'My Projects',
             'Contact Me'];
 
