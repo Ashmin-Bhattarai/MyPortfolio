@@ -22,12 +22,15 @@ function runSubmit() {
             name: nameF,
             email: emailF,
             subject: subjectF,
-            message: messageF
+            message: messageF,
+            receiver: "visit@ashminbhattarai.com.np"
+
         })
     };
 
     
-    url = 'https://api.ashminbhattarai.com.np/mail';
+    // url = 'https://api.ashminbhattarai.com.np/mail';
+    url = 'http://localhost:8000/mail';
     
     fetch(url, option)
     .then((response) => alert("Message sent successfully!"))
