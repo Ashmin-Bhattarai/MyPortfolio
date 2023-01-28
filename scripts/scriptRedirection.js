@@ -29,8 +29,8 @@ function runSubmit() {
     };
 
     
-    // url = 'https://api.ashminbhattarai.com.np/mail';
-    url = 'http://localhost:8000/mail';
+    url = 'https://api.ashminbhattarai.com.np/mail';
+    // url = 'http://localhost:8000/mail';
     
     fetch(url, option)
     .then((response) => alert("Message sent successfully!"))
