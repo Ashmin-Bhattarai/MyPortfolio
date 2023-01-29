@@ -23,7 +23,7 @@ function runSubmit() {
             email: emailF,
             subject: subjectF,
             message: messageF,
-            receiver: "visit@ashminbhattarai.com.np"
+            receiver: "koushal.ashmin@gmail.com"
 
         })
     };
